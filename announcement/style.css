@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+
+body {
+    margin: 0px;
+    background: #E6EFF5;
+    display: flex;
+    height: 100vh;
+}
+
+div.card {
+    box-sizing: border-box;
+    margin: auto;
+    align-items: center;
+    background: white;
+    min-height: 475px;
+    width: 635px;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    border-radius: 8px;
+    padding-top: 40px ;
+    font-family: 'Karla', sans-serif;;
+    font-size: 16px;
+    color: #9AA7BE;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+div.item-1{
+    padding: 0px 40px;
+}
+
+h1.item-1 {
+    color: #2AB3B1;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    margin: 0px 0px 24px 0px;
+}
+
+h2.item-1 {
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: -0.225px;
+    color: #C0DF33;
+    margin-bottom: 11px;
+}
+
+p.item-1 {
+    margin-bottom: 40px;
+}
+
+div.container {
+    color:white;
+    background: #2AB3B1;
+    display: flex;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 18px;
+}
+
+div.item-2 {
+    padding: 40px;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+span.item-2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.4px;
+}
+
+span.item-2.preco {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    letter-spacing: -0.2px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-left: 11px;
+}
+
+p.item-2 {
+    font-weight: 400;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    letter-spacing: -0.2px;
+    margin-top: 4px;
+    margin-bottom: 26px;
+}
+
+a {
+    text-decoration:  none;
+    color: white;
+    background: #C0DF33;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    border-radius: 5px;
+    font-weight: 700;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: -0.2px;
+    padding: 15px 89px;
+}
+
+div.item-3 {
+    padding: 40px;
+    background: #2AB3C7;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+ul {
+    padding: 0px;
+    font-size: 14px;
+    list-style-type: none;
+    font-weight: 400;
+    line-height: 20px;
+    /* or 143% */
+    letter-spacing: -0.175px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
